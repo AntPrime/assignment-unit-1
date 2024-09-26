@@ -3,25 +3,27 @@ header {background-color: rgb(186, 153, 109);}
 /* Add a fun background color to the main element */
 main {background-color: darkolivegreen;}
 /* Align the h1 containing your name in the center of the header*/
-h1 { text-align: center;
+h1 {text-align: center;
     font-variant: small-caps;
     }
 /* Make your p tag a different color and italic */
-p {
-    font-style: italic;
+p {font-style: italic;
     color: black;
 }
 /* Put a border around your image */
-.background {background-image: url(/images/Anthony\ Photo.jpeg);
-background-size: 400px;
-background-repeat: no repeat;
-background-position: center;}
+.my-img {max-width: 100%; 
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Anthony Photo.jpeg)
+    background-position: center;
+    border: 2px solid #000;
+}
 /* Change the font-family of your list */
-ul {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ul {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant: small-caps;
 }
 /* Add a background color to the footer element */
-footer {background-color: rgb(186, 153, 109);
-font-variant: small-caps
+footer { background-color: rgb(186, 153, 109);
+font-variant: small-caps;
 ;}
