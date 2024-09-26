@@ -12,7 +12,10 @@ p {
     color: black;
 }
 /* Put a border around your image */
-
+.background {background-image: url(/images/Anthony\ Photo.jpeg);
+background-size: 400px;
+background-repeat: no repeat;
+background-position: center;}
 /* Change the font-family of your list */
 ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
